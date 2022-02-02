@@ -1,0 +1,29 @@
+@import './reset.scss';
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lato:wght@400&family=Merriweather:wght@900&display=swap');
+
+$green-color: #768747;
+$background-color: #f8f9fa;
+
+$nav-color: rgba(0,0,0,.5);
+$nav-color-hover: rgba(0,0,0,.7);
+$color-primary: #000;
+
+$font-primary: 'Lato', sans-serif;;
+$font-secondary: 'Amatic SC', cursive;
+$font-logo: 'Merriweather', serif;
+
+@mixin logo {
+  font-family: $font-logo;
+  font-weight: 900;
+  font-size: 45px;
+  line-height: 25px;
+  color: $green-color;
+}
+
+@mixin input {
+  background-color:#dbdbdb;
+}
+
+body {
+  overflow-x: hidden;
+}
