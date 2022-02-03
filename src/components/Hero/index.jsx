@@ -12,7 +12,7 @@ function Hero() {
           Vamos mudar o mundo juntos
         </h2>
       </section>
-      <section className={styles.revolution}>
+      <section id="convidado" className={styles.revolution}>
         <h2 className={styles.revolution__title}>
           Participe da revolução da comida congelada
         </h2>
@@ -23,7 +23,7 @@ function Hero() {
           nossa filosofia de vida.
         </p>
       </section>
-      <section className={styles.igredients}>
+      <section id="quem-somos" className={styles.igredients}>
         <h2 className={styles.igredients__title}>
           os melhores ingredientes para você
         </h2>
@@ -57,6 +57,32 @@ function Hero() {
             </p>
           </li>
         </ul>
+      </section>
+      <section id="experiment" className={styles.experiment}>
+        <div className={styles.experiment__container}>
+          <h2 className={styles.experiment__title}>Experimente</h2>
+          <p className={styles.experiment__describe}>
+            Apresentaremos nossa linha de pratos e refeições congeladas
+            completas com dieta diferenciada e balanceda. Venha provar e
+            aprovar!
+          </p>
+        </div>
+      </section>
+      <section id="go" className={styles.go}>
+        <h2 className={styles.go__title}>bora pra são francisco</h2>
+        <p className={styles.go__describe}>
+          <ul className={styles.list}>
+            <li className={styles.list__item}>Hotel North Beach</li>
+            <li className={styles.list__item}>935 Kearny St, San Francisco,</li>
+            <li className={styles.list__item}>CA 94133, Estados Unidos</li>
+            <li className={styles.list__item}>
+              <time dateTime="2019-11-16 09:00">11/16/2019</time>
+            </li>
+            <li className={styles.list__item}>
+              <time>09:00 am</time>
+            </li>
+          </ul>
+        </p>
       </section>
     </main>
   );

@@ -24,6 +24,10 @@ $font-logo: 'Merriweather', serif;
   background-color:#dbdbdb;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
 }

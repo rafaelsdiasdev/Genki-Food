@@ -7,11 +7,17 @@ function Navbar() {
       <div className={styles.nav__logo}>genkifood</div>
       <ul className={styles.nav__menu}>
         <li className={styles.menu__item}>
-          <a href="https://">Você é o nosso convidado</a>
+          <a href="#convidado">Você é o nosso convidado</a>
         </li>
-        <li className={styles.menu__item}>Quem somos</li>
-        <li className={styles.menu__item}>Experimente</li>
-        <li className={styles.menu__item}>Bora para São Francisco</li>
+        <li className={styles.menu__item}>
+          <a href="#quem-somos">Quem somos</a>
+        </li>
+        <li className={styles.menu__item}>
+          <a href="#experiment">Experimente</a>
+        </li>
+        <li className={styles.menu__item}>
+          <a href="#go">Bora para São Francisco</a>
+        </li>
       </ul>
       <div className={styles.nav__button}>
         <a href="http://" className={styles.button}>
