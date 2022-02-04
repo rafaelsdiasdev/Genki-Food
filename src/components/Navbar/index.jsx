@@ -20,7 +20,7 @@ function Navbar() {
         </li>
       </ul>
       <div className={styles.nav__button}>
-        <a href="http://" className={styles.button}>
+        <a href="#register" className={styles.button}>
           Registre-se
         </a>
       </div>

@@ -3,6 +3,7 @@
 .hero {
   width: 100vw;
   height: 100vh;
+  
   .changeWorld {
     display: flex;
     align-items: center;
@@ -85,7 +86,6 @@
   }
 }
 
-
 .experiment {
   display: flex;
   flex-direction: column;
@@ -111,36 +111,6 @@
       padding: 1rem;
       font-family: $font-primary;
       font-size: 30px;
-    }
-  }
-}
-
-.go {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  background: url('../../assets/image/imagem6.png') no-repeat;
-  background-size: cover;
-  gap: 8rem;
-
-  .go__title {
-    font-family: $font-secondary;
-    font-size: 173px;
-    color: #fff;
-  }
-  .go__describe {
-    text-align: center;
-    font-family: $font-primary;
-    font-size: 35px;
-    color: #fff;
-
-    .list {
-      .list__item {
-        line-height: 1.5;
-      }
     }
   }
 }

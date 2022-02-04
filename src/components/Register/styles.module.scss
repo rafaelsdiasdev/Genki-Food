@@ -1,0 +1,52 @@
+@import '../../global.scss';
+
+.register {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+
+  .register__title {
+    font-family: $font-secondary;
+    font-size: 106px;
+    color: $green-color;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    width: 40%;
+
+    input {
+      background-color: #DBDBDB;
+      border: none;
+      width: 97%;
+      height: 4rem;
+      border-radius: 1rem;
+      font-size: 2rem;
+      padding: 1rem;
+    }
+
+    .button {
+      padding: 1.4rem;
+      text-decoration: none;
+      color: #fff;
+      font-size: 3rem;
+      font-family: $font-primary;
+      background-color: #465902;
+      border-radius: 1rem;
+      font-weight: 400;
+      transition: filter .2s;
+      border: none;
+      width: 100%;
+
+      &:hover {
+        filter: brightness(115%);
+      }
+    }
+  }
+}

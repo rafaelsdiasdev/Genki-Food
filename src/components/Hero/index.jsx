@@ -3,6 +3,8 @@ import styles from './styles.module.scss';
 import Imagem2 from '../../assets/image/imagem2.png';
 import Imagem3 from '../../assets/image/imagem3.png';
 import Imagem4 from '../../assets/image/imagem4.png';
+import Experiment from '../Experiment';
+import Register from '../Register';
 
 function Hero() {
   return (
@@ -68,22 +70,8 @@ function Hero() {
           </p>
         </div>
       </section>
-      <section id="go" className={styles.go}>
-        <h2 className={styles.go__title}>bora pra são francisco</h2>
-        <p className={styles.go__describe}>
-          <ul className={styles.list}>
-            <li className={styles.list__item}>Hotel North Beach</li>
-            <li className={styles.list__item}>935 Kearny St, San Francisco,</li>
-            <li className={styles.list__item}>CA 94133, Estados Unidos</li>
-            <li className={styles.list__item}>
-              <time dateTime="2019-11-16 09:00">11/16/2019</time>
-            </li>
-            <li className={styles.list__item}>
-              <time>09:00 am</time>
-            </li>
-          </ul>
-        </p>
-      </section>
+      <Experiment />
+      <Register />
     </main>
   );
 }
