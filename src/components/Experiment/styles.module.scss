@@ -15,6 +15,10 @@
     font-family: $font-secondary;
     font-size: 173px;
     color: #fff;
+
+    @media (max-width: 1200px) {
+      font-size: 100px;
+    }
   }
   .go__describe {
     align-items: center;
@@ -26,6 +30,10 @@
     font-size: 35px;
     color: #fff;
     gap: 3rem;
+
+    @media (max-width: 1200px) {
+      font-size: 30px;
+    }
 
     .list {
       .list__item {

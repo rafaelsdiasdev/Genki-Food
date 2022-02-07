@@ -12,6 +12,10 @@
     font-family: $font-secondary;
     font-size: 106px;
     color: $green-color;
+
+    @media (max-width: 1200px) {
+      font-size: 100px;
+    }
   }
 
   form {
@@ -21,6 +25,10 @@
     gap: 3rem;
     width: 40%;
 
+    @media (max-width: 1200px) {
+      gap: 2rem;
+    }
+
     input {
       background-color: #DBDBDB;
       border: none;
@@ -29,6 +37,12 @@
       border-radius: 1rem;
       font-size: 2rem;
       padding: 1rem;
+
+      @media (max-width: 1200px) {
+        width: 80%;
+        height: 2rem;
+        font-size: 1rem;
+      }
     }
 
     .button {
@@ -43,6 +57,12 @@
       transition: filter .2s;
       border: none;
       width: 100%;
+
+      @media (max-width: 1200px) {
+        width: 87%;
+        padding: 1rem;
+        font-size: 1.5rem;
+      }
 
       &:hover {
         filter: brightness(115%);

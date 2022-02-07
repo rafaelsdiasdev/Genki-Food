@@ -28,9 +28,9 @@ function Hero({ rootRef }) {
         </p>
       </section>
       <section id="quem-somos" className={styles.igredients}>
-        <h2 className={styles.igredients__title}>
-          os melhores ingredientes para você
-        </h2>
+        <div className={styles.igredients__title}>
+          <h2>os melhores ingredientes para você</h2>
+        </div>
         <ul className={styles.igredients__list}>
           <li className={styles.list__item}>
             <figure className={styles.item__image}>
