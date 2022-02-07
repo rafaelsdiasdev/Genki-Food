@@ -1,12 +1,14 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styles from './styles.module.scss';
 import Imagem2 from '../../assets/image/imagem2.png';
 import Imagem3 from '../../assets/image/imagem3.png';
 import Imagem4 from '../../assets/image/imagem4.png';
 import Experiment from '../Experiment';
 import Register from '../Register';
+import Footer from '../Footer';
 
-function Hero() {
+function Hero({ rootRef }) {
   return (
     <main className={styles.hero}>
       <section className={styles.changeWorld}>
@@ -71,9 +73,19 @@ function Hero() {
         </div>
       </section>
       <Experiment />
-      <Register />
+      <Register rootRef={rootRef} />
+      <Footer />
     </main>
   );
 }
 
 export default Hero;
+
+Hero.propTypes = {
+  // eslint-disable-next-line react/forbid-prop-types
+  rootRef: PropTypes.element,
+};
+
+Hero.defaultProps = {
+  rootRef: null,
+};
