@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8699bdb6.css",
+    "main.js": "/static/js/main.b5ac93ac.js",
+    "static/media/organic_food.mp4": "/static/media/organic_food.168ce76ba9baa028b677.mp4",
+    "static/media/imagem6.png": "/static/media/imagem6.5904e1d80f7d0b3f1edc.png",
+    "static/media/imagem1.png": "/static/media/imagem1.ef280f9dc495e0a41aa5.png",
+    "static/media/imagem5.png": "/static/media/imagem5.a1a61deda5eaabd8496e.png",
+    "static/media/imagem4.png": "/static/media/imagem4.d5f45a9bc0029853e804.png",
+    "static/media/imagem3.png": "/static/media/imagem3.ba26a60b302c3e04acfd.png",
+    "static/media/imagem9.png": "/static/media/imagem9.65944d9bf11458d48d1b.png",
+    "static/media/imagem10.png": "/static/media/imagem10.181db7980259b881588c.png",
+    "static/media/imagem2.png": "/static/media/imagem2.c23eeb625cca0988f6b8.png",
+    "static/media/instagran.svg": "/static/media/instagran.a71c4c2fcf852790a31714c9850770a3.svg",
+    "static/media/twitter.svg": "/static/media/twitter.01e5c19002301b1cf47de66b7cbaab4e.svg",
+    "static/media/facebook.svg": "/static/media/facebook.9ca02101d6aea9b567273654fb2acdb8.svg",
+    "index.html": "/index.html",
+    "main.8699bdb6.css.map": "/static/css/main.8699bdb6.css.map",
+    "main.b5ac93ac.js.map": "/static/js/main.b5ac93ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8699bdb6.css",
+    "static/js/main.b5ac93ac.js"
+  ]
+}
