@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/genkifood/static/css/main.b0b96445.css",
-    "main.js": "/genkifood/static/js/main.2a52a504.js",
+    "main.js": "/genkifood/static/js/main.1bdc8a5e.js",
     "static/media/organic_food.mp4": "/genkifood/static/media/organic_food.168ce76ba9baa028b677.mp4",
     "static/media/imagem6.png": "/genkifood/static/media/imagem6.5904e1d80f7d0b3f1edc.png",
     "static/media/imagem1.png": "/genkifood/static/media/imagem1.ef280f9dc495e0a41aa5.png",
@@ -16,10 +16,10 @@
     "index.html": "/genkifood/index.html",
     "static/media/facebook.svg": "/genkifood/static/media/facebook.9ca02101d6aea9b567273654fb2acdb8.svg",
     "main.b0b96445.css.map": "/genkifood/static/css/main.b0b96445.css.map",
-    "main.2a52a504.js.map": "/genkifood/static/js/main.2a52a504.js.map"
+    "main.1bdc8a5e.js.map": "/genkifood/static/js/main.1bdc8a5e.js.map"
   },
   "entrypoints": [
     "static/css/main.b0b96445.css",
-    "static/js/main.2a52a504.js"
+    "static/js/main.1bdc8a5e.js"
   ]
 }
