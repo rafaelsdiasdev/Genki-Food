@@ -1,6 +1,7 @@
 {
   "name": "genki-food",
   "version": "0.1.0",
+  "homepage": "https://rafaelsdiasdev.github.io/genkifood/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
