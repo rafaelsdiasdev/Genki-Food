@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/genkifood/static/css/main.b0b96445.css",
-    "main.js": "/genkifood/static/js/main.1f86f5f0.js",
-    "static/media/organic_food.mp4": "/genkifood/static/media/organic_food.168ce76ba9baa028b677.mp4",
-    "static/media/imagem6.png": "/genkifood/static/media/imagem6.5904e1d80f7d0b3f1edc.png",
-    "static/media/imagem1.png": "/genkifood/static/media/imagem1.ef280f9dc495e0a41aa5.png",
-    "static/media/imagem5.png": "/genkifood/static/media/imagem5.a1a61deda5eaabd8496e.png",
-    "static/media/imagem4.png": "/genkifood/static/media/imagem4.d5f45a9bc0029853e804.png",
-    "static/media/imagem3.png": "/genkifood/static/media/imagem3.ba26a60b302c3e04acfd.png",
-    "static/media/imagem9.png": "/genkifood/static/media/imagem9.65944d9bf11458d48d1b.png",
-    "static/media/imagem10.png": "/genkifood/static/media/imagem10.181db7980259b881588c.png",
-    "static/media/imagem2.png": "/genkifood/static/media/imagem2.c23eeb625cca0988f6b8.png",
-    "static/media/instagran.svg": "/genkifood/static/media/instagran.a71c4c2fcf852790a31714c9850770a3.svg",
-    "static/media/twitter.svg": "/genkifood/static/media/twitter.01e5c19002301b1cf47de66b7cbaab4e.svg",
-    "index.html": "/genkifood/index.html",
-    "static/media/facebook.svg": "/genkifood/static/media/facebook.9ca02101d6aea9b567273654fb2acdb8.svg",
-    "main.b0b96445.css.map": "/genkifood/static/css/main.b0b96445.css.map",
-    "main.1f86f5f0.js.map": "/genkifood/static/js/main.1f86f5f0.js.map"
+    "main.css": "http://localhost:3000/static/css/main.cd2bc304.css",
+    "main.js": "http://localhost:3000/static/js/main.92cd658f.js",
+    "static/media/organic_food.mp4": "http://localhost:3000/static/media/organic_food.168ce76ba9baa028b677.mp4",
+    "static/media/imagem6.png": "http://localhost:3000/static/media/imagem6.5904e1d80f7d0b3f1edc.png",
+    "static/media/imagem1.png": "http://localhost:3000/static/media/imagem1.ef280f9dc495e0a41aa5.png",
+    "static/media/imagem5.png": "http://localhost:3000/static/media/imagem5.a1a61deda5eaabd8496e.png",
+    "static/media/imagem4.png": "http://localhost:3000/static/media/imagem4.d5f45a9bc0029853e804.png",
+    "static/media/imagem3.png": "http://localhost:3000/static/media/imagem3.ba26a60b302c3e04acfd.png",
+    "static/media/imagem9.png": "http://localhost:3000/static/media/imagem9.65944d9bf11458d48d1b.png",
+    "static/media/imagem10.png": "http://localhost:3000/static/media/imagem10.181db7980259b881588c.png",
+    "static/media/imagem2.png": "http://localhost:3000/static/media/imagem2.c23eeb625cca0988f6b8.png",
+    "static/media/instagran.svg": "http://localhost:3000/static/media/instagran.a71c4c2fcf852790a31714c9850770a3.svg",
+    "static/media/twitter.svg": "http://localhost:3000/static/media/twitter.01e5c19002301b1cf47de66b7cbaab4e.svg",
+    "index.html": "http://localhost:3000/index.html",
+    "static/media/facebook.svg": "http://localhost:3000/static/media/facebook.9ca02101d6aea9b567273654fb2acdb8.svg",
+    "main.cd2bc304.css.map": "http://localhost:3000/static/css/main.cd2bc304.css.map",
+    "main.92cd658f.js.map": "http://localhost:3000/static/js/main.92cd658f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0b96445.css",
-    "static/js/main.1f86f5f0.js"
+    "static/css/main.cd2bc304.css",
+    "static/js/main.92cd658f.js"
   ]
 }
