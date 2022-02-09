@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "http://localhost:3000/static/css/main.cd2bc304.css",
-    "main.js": "http://localhost:3000/static/js/main.92cd658f.js",
+    "main.js": "http://localhost:3000/static/js/main.b40b94bf.js",
     "static/media/organic_food.mp4": "http://localhost:3000/static/media/organic_food.168ce76ba9baa028b677.mp4",
     "static/media/imagem6.png": "http://localhost:3000/static/media/imagem6.5904e1d80f7d0b3f1edc.png",
     "static/media/imagem1.png": "http://localhost:3000/static/media/imagem1.ef280f9dc495e0a41aa5.png",
@@ -16,10 +16,10 @@
     "index.html": "http://localhost:3000/index.html",
     "static/media/facebook.svg": "http://localhost:3000/static/media/facebook.9ca02101d6aea9b567273654fb2acdb8.svg",
     "main.cd2bc304.css.map": "http://localhost:3000/static/css/main.cd2bc304.css.map",
-    "main.92cd658f.js.map": "http://localhost:3000/static/js/main.92cd658f.js.map"
+    "main.b40b94bf.js.map": "http://localhost:3000/static/js/main.b40b94bf.js.map"
   },
   "entrypoints": [
     "static/css/main.cd2bc304.css",
-    "static/js/main.92cd658f.js"
+    "static/js/main.b40b94bf.js"
   ]
 }
