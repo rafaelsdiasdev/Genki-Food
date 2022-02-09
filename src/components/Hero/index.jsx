@@ -83,9 +83,9 @@ export default Hero;
 
 Hero.propTypes = {
   // eslint-disable-next-line react/forbid-prop-types
-  rootRef: PropTypes.element,
+  rootRef: PropTypes.object,
 };
 
 Hero.defaultProps = {
-  rootRef: null,
+  rootRef: {},
 };

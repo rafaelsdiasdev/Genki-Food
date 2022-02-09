@@ -18,6 +18,14 @@
 
     @media (max-width: 1200px) {
       font-size: 100px;
+      background-color: #cf3c58;
+      padding: 1rem;
+    }
+
+    @media (max-width: 670px) {
+      font-size: 4rem;
+      font-weight: 900;
+      padding: .5rem;
     }
   }
   .go__describe {

@@ -1,11 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './styles.module.scss';
 
 function Navbar() {
+  const [activeMenuMobile, setActiveMenuMobile] = useState(false);
+
+  const handleClick = (e) => {
+    setActiveMenuMobile(!activeMenuMobile);
+    if (activeMenuMobile) {
+      e.currentTarget.setAttribute('aria-expanded', 'false');
+      e.currentTarget.setAttribute('aria-label', 'Abrir Menu');
+    } else {
+      e.currentTarget.setAttribute('aria-expanded', 'true');
+      e.currentTarget.setAttribute('aria-label', 'Fechar Menu');
+    }
+  };
+
   return (
-    <nav className={styles.nav}>
+    <nav className={`${styles.nav} ${activeMenuMobile ? styles.active : ''}`}>
       <div className={styles.nav__logo}>genkifood</div>
-      <ul className={styles.nav__menu}>
+      <button
+        onClick={handleClick}
+        className={styles.nav__btnMobile}
+        type="button"
+        aria-label="Abrir Menu"
+        aria-expanded="false"
+        aria-controls="menu"
+        aria-haspopup="true"
+      >
+        Menu
+        <span className={styles.btnMobile__hamburguer} />
+      </button>
+      <ul id="menu" role="menu" className={styles.nav__menu}>
         <li className={styles.menu__item}>
           <a href="#convidado">Você é o nosso convidado</a>
         </li>
