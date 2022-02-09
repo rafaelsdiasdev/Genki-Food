@@ -12,6 +12,7 @@ export default function Register({ rootRef }) {
 
   const [user, setUser] = useState(data);
   const [modal, setModal] = useState(false);
+  const [message, setMessage] = useState('');
 
   useEffect(() => {
     rootRef.current.addEventListener('click', () => setModal(false), false);
@@ -57,9 +58,10 @@ export default function Register({ rootRef }) {
         setUser({ name: '', email: '', phone: '' });
         if (content.httpRequestCode === 200) {
           setModal(true);
+          setMessage('Cadastro realizado com sucesso!');
         }
       } catch (error) {
-        console.error(error);
+        setMessage('Erro ao realizar registro!');
       }
     })();
   };
@@ -97,9 +99,7 @@ export default function Register({ rootRef }) {
           </button>
         </form>
       </section>
-      {modal && (
-        <Modal message="Cadastro realizado com sucesso!" setModal={setModal} />
-      )}
+      {modal && <Modal message={message} setModal={setModal} />}
     </>
   );
 }
