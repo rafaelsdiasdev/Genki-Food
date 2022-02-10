@@ -3,7 +3,7 @@
 .hero {
   width: 100vw;
   height: 100vh;
-  
+    
   .changeWorld {
     display: flex;
     align-items: center;
@@ -19,7 +19,7 @@
 
     .changeWorld__title {
       font-family: $font-secondary;
-      font-size: 150px;
+      font-size: 130px;
       color: #fff;
       max-width: 488px;
 
@@ -39,7 +39,6 @@
     width: 100%;
     height: 100%;
     max-width: 853px;
-    margin: 0 auto;
 
     @media (max-width: 1200px) {
       gap: 50px;
@@ -48,8 +47,9 @@
     .revolution__title {
       text-align: center;
       font-family: $font-secondary;
-      font-size: 150px;
+      font-size: 130px;
       color: $green-color;
+      padding: 0 1rem;
 
       @media (max-width: 1200px) {
         font-size: 100px;
@@ -61,6 +61,7 @@
       font-family: $font-primary;
       max-width: 853px;
       font-size: 30px;
+      padding: 0 1rem;
 
       @media (max-width: 1200px) {
         font-size: 20px;
@@ -79,17 +80,20 @@
   width: 100%;
   background-color: #F6F5F5;
 
+
   .igredients__title {
     margin-top: 3rem;
     font-family: $font-secondary;
     font-size: 100px;
     color: $green-color;
+    padding: 0 1rem;
 
     @media (max-width: 1200px) {
       background: url('../../assets/image/imagem9.png') no-repeat;
       background-size: cover;
       color: #fff;
-      font-size: 50px;
+      font-size: 3rem;
+      font-weight: 900;
       height: 264px;
       width: 100vw;
       display: flex;
@@ -118,9 +122,9 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 400px;
+      min-width: 370px;
       gap: 4rem;
-
+      
       @media (max-width: 1200px) {
         gap: 2rem;
 
@@ -133,7 +137,8 @@
         line-height: 1.3;
         text-align: center;
         font-family: $font-primary;
-        font-size: 25px;
+        font-size: 20px;
+        padding: 0 1rem;
       }
     }
   }
@@ -160,6 +165,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    gap: 1rem;
 
     @media (max-width: 970px) {
       margin-right: 1rem;
@@ -172,7 +178,7 @@
     .experiment__title {
       text-align: right;
       font-family: $font-secondary;
-      font-size: 173px;
+      font-size: 130px;
 
       @media (max-width: 1200px) {
         font-size: 100px;
@@ -188,14 +194,14 @@
     }
     .experiment__describe {
       text-align: right;
-      padding: 1rem;
       font-family: $font-primary;
-      font-size: 30px;
+      font-size: 20px;
+      width: 600px;
 
       @media (max-width: 1200px) {
         line-height: 1.2;
         font-size: 20px;
-        width: 400px;
+        width: 370px;
       }
 
       @media (max-width: 670px) {

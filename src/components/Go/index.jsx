@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import styles from './styles.module.scss';
 import Map from '../Map';
 
-export default function Experiment() {
+export default function Go() {
   const [showMap, setShowMap] = useState(false);
 
   return !showMap ? (

@@ -4,7 +4,7 @@ import styles from './styles.module.scss';
 import Imagem2 from '../../assets/image/imagem2.png';
 import Imagem3 from '../../assets/image/imagem3.png';
 import Imagem4 from '../../assets/image/imagem4.png';
-import Experiment from '../Experiment';
+import Go from '../Go';
 import Register from '../Register';
 import Footer from '../Footer';
 
@@ -72,7 +72,7 @@ function Hero({ rootRef }) {
           </p>
         </div>
       </section>
-      <Experiment />
+      <Go />
       <Register rootRef={rootRef} />
       <Footer />
     </main>
